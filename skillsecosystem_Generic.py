@@ -551,26 +551,9 @@ for market in markets:
             }
     LoginLink = LoginLinks[market]
 
-    email_list = {
-        "US": "kcltestalexaskills@gmail.com",
-        "AU": "olacokee@gmail.com",
-        "UK":"jideedu2@gmail.com",
-        "IN":"bj4real87@yahoo.com",
-        "ES":"jideedu@hotmail.com",
-        "FR":"K1772492@kcl.ac.uk",
-        "DE":"edubabajide@gmail.com",
-        "CA":"jideedu@icloud.com",
-        "MX":"jideedu3@gmail.com",
-        "IT":"jideedu4@gmail.com",
-        "JP":"jide.edu@yahoo.com"
-        }
-
-    email = email_list[market]
-
-    if market == 'US':
-        password = "B@rcelona"
-    else:
-        password = "zee7Aet3"
+#Add your Amazon email address and pssword
+    email = ""
+    password = ""
 
     #Create a new instance of the Mozilla driver
     options = Options()
