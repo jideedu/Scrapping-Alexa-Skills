@@ -558,9 +558,9 @@ for market in markets:
     #Create a new instance of the Mozilla driver
     options = Options()
     options.headless = True
-    #driver = webdriver.Firefox(options=options, executable_path=firefoxdriverpath)
-    £driver = webdriver.Firefox(executable_path=firefoxdriverpath)
-    driver = webdriver.Chrome(options=options, executable_path = chromedriverpath)
+    driver = webdriver.Firefox(options=options, executable_path=firefoxdriverpath)
+    #driver = webdriver.Firefox(executable_path=firefoxdriverpath)
+    #driver = webdriver.Chrome(options=options, executable_path = chromedriverpath)
 
     #only enable this to get category_links : Must be run first
     category_finder(market, MarketLink, folder)
