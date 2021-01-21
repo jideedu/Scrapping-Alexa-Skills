@@ -225,6 +225,10 @@ def SkillDetails(Skill_Url):
         skill_developer= ""
         
     #getting the permission
+    #allpermlink = driver.find_elements_by_class_name('a2s-permissions-list-item')
+    #permissions_requested = [i.text for i in allpermlink]
+    #privacy_link = driver.find_element_by_partial_link_text('Developer Privacy Policy').get_attribute("href")
+            
     try:
         b22 = soup.findAll("li", attrs={"class": "a2s-permissions-list-item"})
         skill_permission =list()
